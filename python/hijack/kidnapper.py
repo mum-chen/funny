@@ -6,7 +6,7 @@ class Kidnapper(object):
     _hostage = None
     class _Victim(Human):
         def say_name(self):
-            print "I'm innocent"
+            print("I'm innocent")
 
     @classmethod
     def ransom(kls, human_kls):

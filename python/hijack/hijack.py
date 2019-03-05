@@ -28,14 +28,14 @@ def random_import():
 if __name__ == "__main__":
     random_import()
 
-    print "Volunteer say:"
+    print("Volunteer say:")
     v = Volunteer()
     v.say_name()
 
-    print "Warrior say:"
+    print("Warrior say:")
     w = Warrior()
     w.say_name()
 
-    print "Sacrifice say:"
+    print("Sacrifice say:")
     s = Sacrifice()
     s.say_name()
